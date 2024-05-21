@@ -1,10 +1,10 @@
-import './App.css'
+import style from './App.module.css'
 
 function App() {
   return (
-    <>
-    Hello World
-    </>
+    <div className={style.App}>
+      Hello World
+    </div>
   )
 }
 
