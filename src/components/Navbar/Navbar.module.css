@@ -17,6 +17,10 @@
     color: var(--color-text);
 }
 
+.menuBtn {
+    display: none;
+}
+
 .menu {
     display: flex;
 }
@@ -35,6 +39,7 @@
 
 @media screen and (max-width: 830px) {
     .navbar {
+        font-size: 25px;
         flex-direction: column;
         align-items: flex-start;
     }
@@ -67,5 +72,10 @@
         );
         padding: 24px 33px;
         box-shadow: 0 0 40px rgba(0, 0, 0, 0.25);
+    }
+
+    .menuOpen {
+        display: flex;
+        z-index: 1;
     }
 }
